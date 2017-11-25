@@ -7,8 +7,9 @@ template<listenerManagePolicy> Sensor is a template which manages its observers 
  with the given listenerManagePolicy.
 
 provided Policies:
-ListenerSingleRawPointerPolicy manages only one Listener
-ListenerMultiple manages multiple Listener either
-as Raw or as std::weak_ptr
+- ListenerSingleRawPointerPolicy manages only one Listener
+- ListenerMultiple manages multiple Listener either as 
+   - Raw or as 
+   - std::weak_ptr
   
 
