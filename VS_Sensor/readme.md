@@ -1,5 +1,6 @@
 #VS Sensor
-Dieses Projekt ist ein header only library mit
+
+Dieses Projekt ist eine header only library mit
 einer Demo Anwendung in main.cpp
 
 Das Sensor Template kann mit verschiedenen Policies zur Verwaltung
