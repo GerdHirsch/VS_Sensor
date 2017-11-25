@@ -1,5 +1,4 @@
 #VS Sensor
-
 Dieses Projekt ist eine header only library mit
 einer Demo Anwendung in main.cpp
 
