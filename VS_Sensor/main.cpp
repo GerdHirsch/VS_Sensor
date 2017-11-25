@@ -6,10 +6,10 @@
  *      diese Sourcen sind in Verkehrssteuerung_SensorLib verwaltet
  */
 
-#include "ListenerMultiple.h"
-#include "ListenerSingleRawPointer.h"
-#include"Sensor.h"
-#include"SensorListener.h"
+#include <Sensor/ListenerMultiple.h>
+#include <Sensor/ListenerSingleRawPointer.h>
+#include <Sensor/Sensor.h>
+#include <Sensor/SensorListener.h>
 
 #include <iostream>
 using namespace std;
