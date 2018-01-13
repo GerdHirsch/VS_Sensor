@@ -62,7 +62,7 @@ void demoMultipleRawPointer(){
 }
 
 void demoMultipleSmartPointer(){
-	cout << "============= demoMultipleSmartPointer()" << endl;
+	cout << "============= demoMultipleSmartPointer() =" << endl;
 
 	typedef SH::SensorListener Listener;
 	typedef std::shared_ptr<Listener> SharedPointer;
