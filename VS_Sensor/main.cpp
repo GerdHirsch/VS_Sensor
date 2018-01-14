@@ -62,7 +62,7 @@ void demoMultipleRawPointer(){
 }
 
 void demoMultipleSmartPointer(){
-	cout << "============= demoMultipleSmartPointer() =" << endl;
+	cout << "============= demoMultipleSmartPointer()" << endl;
 
 	typedef SH::SensorListener Listener;
 	typedef std::shared_ptr<Listener> SharedPointer;
@@ -76,7 +76,7 @@ void demoMultipleSmartPointer(){
 	{
 		cout << "WeakPointer einfügen, " << endl <<
 				"der anschließend nicht mehr gültig ist" << endl;
-		SharedPointer p(new MyListener("listener"));
+		SharedPointer p(make_shared<MyListener>("listener"));
 		// WeakPointer(SharedPointer p) ctor ist nicht explicit
 		s.addSensorListener(p);
 		cout << "externalSignal()" << endl;
